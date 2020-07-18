@@ -1,25 +1,6 @@
 version: '3'
 
 services:
-  postgres:
-    image: postgres:9.6
-    container_name: dataSavvy-postgres
-    environment:
-      - "TZ=Europe/Amsterdam"
-      - "POSTGRES_USER=docker"
-      - "POSTGRES_PASSWORD=docker"
-    ports:
-      - "5432:5432"
-    volumes:
-      - "./sql:/docker-entrypoint-initdb.d"
-  cassandra:
-    image: cassandra:3
-    container_name: dataSavvy-cassandra
-    ports:
-    - "7000:7000"
-    - "9042:9042"
-    environment:
-    - "CASSANDRA_CLUSTER_NAME=OUR_DOCKERIZED_CASSANDRA_SINGLE_NODE_CLUSTER"
   zookeeper:
     container_name: dataSavvy-zookeeper
     image: wurstmeister/zookeeper
