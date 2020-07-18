@@ -1,0 +1,5 @@
+v1
+{"path":"file:///Users/harjeet/Learn/spark/Youtube/spark-streaming/src/main/resources/data/stream_input/student.csv","timestamp":1594476536000,"batchId":0}
+{"path":"file:///Users/harjeet/Learn/spark/Youtube/spark-streaming/src/main/resources/data/stream_input/student1.csv","timestamp":1594476569000,"batchId":0}
+{"path":"file:///Users/harjeet/Learn/spark/Youtube/spark-streaming/src/main/resources/data/stream_input/student2.csv","timestamp":1594476589000,"batchId":0}
+{"path":"file:///Users/harjeet/Learn/spark/Youtube/spark-streaming/src/main/resources/data/stream_input/student3.csv","timestamp":1594476645000,"batchId":0}
